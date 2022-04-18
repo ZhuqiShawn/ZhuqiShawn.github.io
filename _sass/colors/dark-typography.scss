@@ -6,12 +6,12 @@
   /* Framework color */
   --body-bg: var(--main-wrapper-bg);
   --mask-bg: rgb(68, 69, 70);
-  --main-wrapper-bg: rgb(24, 24, 27);
-  --main-border-color: rgb(44, 45, 45);
+  --main-wrapper-bg: rgb(44, 44, 49);
+  --main-border-color: rgb(92, 111, 123);
 
   /* Common color */
-  --text-color: rgb(175, 176, 177);
-  --text-muted-color: rgb(107, 116, 124);
+  --text-color: rgb(233, 235, 238);
+  --text-muted-color: rgb(133, 141, 147);
   --heading-color: #cccccc;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: rgb(117, 117, 117);
@@ -28,19 +28,19 @@
   --checkbox-checked-color: var(--link-color);
 
   /* Sidebar */
-  --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  --sidebar-bg: radial-gradient(circle, #353434 0%, #1d1f27 100%);
   --sidebar-muted-color: #6d6c6b;
   --sidebar-active-color: rgb(255 255 255 / 80%);
   --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-btn-bg: rgb(117 116 116 / 20%);
+  --sidebar-btn-bg: rgba(119, 119, 135, 0.2);
 
   /* Topbar */
   --topbar-text-color: var(--text-color);
-  --topbar-wrapper-bg: rgb(39, 40, 43);
-  --search-wrapper-bg: rgb(34, 34, 39);
+  --topbar-wrapper-bg: rgb(31, 32, 33);
+  --search-wrapper-bg: rgb(38, 38, 40);
   --search-wrapper-border-color: rgb(34, 34, 39);
-  --search-icon-color: rgb(100, 102, 105);
-  --input-focus-border-color: rgb(112, 114, 115);
+  --search-icon-color: rgb(114, 116, 118);
+  --input-focus-border-color: rgb(143, 144, 144);
 
   /* Home page */
   --post-list-text-color: rgb(175, 176, 177);
@@ -52,13 +52,13 @@
   --pin-color: inherit;
 
   /* Posts */
-  --toc-highlight: rgb(116, 178, 243);
+  --toc-highlight: rgb(130, 185, 243);
   --tag-bg: rgb(41, 40, 40);
   --tag-hover: rgb(43, 56, 62);
   --tb-odd-bg: rgba(42, 47, 53, 0.52); /* odd rows of the posts' table */
   --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
-  --footnote-target-bg: rgb(63, 81, 181);
+  --footnote-target-bg: rgb(64, 57, 201);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
   --relate-post-date: var(--text-muted-color);
@@ -82,8 +82,8 @@
   --prompt-short-icon-color: #525cc9;
 
   /* tags */
-  --tag-border: rgb(59, 79, 88);
-  --tag-shadow: rgb(32, 33, 33);
+  --tag-border: rgb(95, 116, 153);
+  --tag-shadow: rgb(65, 84, 95);
   --search-tag-bg: var(--tag-bg);
   --dash-color: rgb(63, 65, 68);
 
@@ -94,7 +94,7 @@
 
   /* archives */
   --timeline-node-bg: rgb(150, 152, 156);
-  --timeline-color: rgb(63, 65, 68);
+  --timeline-color: rgb(121, 124, 129);
   --timeline-year-dot-color: var(--timeline-color);
 
   .post img[data-src] {
