@@ -124,6 +124,8 @@ blockquote {
   @include prompt("warning", "\f06a");
 
   @include prompt("danger", "\f071");
+
+  @include prompt("short", "\f1dd");
 }
 
 mjx-container {

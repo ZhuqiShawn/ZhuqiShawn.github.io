@@ -22,13 +22,15 @@
   url:  'https://www.linkedin.com/in/zhuqi-xiao-6607231b9/' # Fill with your Linkedin homepage
 -
   type: bilibili
-  icon: 'fab fa-youtube'   # icons powered by <https://fontawesome.com/>
-  url:  'https://space.bilibili.com/181492373' # Fill with your Linkedin homepage
+  icon: 'fas fa-video'   # icons powered by <https://fontawesome.com/>
+  url:  'https://space.bilibili.com/181492373' # bilibili
 -
+# -
+# -
 #   type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
--
+  # type: rss
+  # icon: 'fas fa-rss'
+  # noblank: true
+# -
