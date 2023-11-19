@@ -1,11 +1,15 @@
 ---
 title: Note for Learning Git
 date: 2020-10-01 12:00:00 +0800
-categories: [Deep Learning]
+categories: [Git]
 tags: [git, github, version control]
 math: true
 mermaid: true
+toc: true
 img_path: /assets/img/git-note
+image:
+  path: git-preview.png
+  alt: preview image
 ---
 
 ## Basics
@@ -198,7 +202,7 @@ Merge vs. Rebase
 
 The feature branch has a bunch of merge commits. If the master branch is very active, my feature branch's history is muddied
 
-![Rebase](git-rebase.png)
+![Rebase](git-rebase.png){: width="600" height="600"}
 
 We can instead rebase the feature branch onto the master branch. This moves the entire feature branch so that it BEGINS at the tip of the master branch. All of the work is still there, but we have re-written history.
 Instead of using a merge commit, rebasing rewrites history by creating new commits for each of the original feature branch commits.
@@ -257,11 +261,12 @@ There are two types of Git tags we can use:
 >
 > The semantic versioning spec outlines a standardized versioning system for software releases. It provides a consistent way for developers to give meaning to their software releases (how big of a change is this release ??) Versions consist of three numbers separated by periods.
 >
-> ![Semantic Versioning](semantic_versioning.png)
+> ![Semantic Versioning](semantic_versioning.png){: width="300" height="200" .right}
 >
 > + **Patch releases**: normally do not contain new features or significant changes. They typically signify bug fixes and other changes that do not impact how the code is used
 > + **Minor releases**: signify that new features or functionality have been added, but the project is still backwards compatible. No breaking changes. The new functionality is optional and should not force users to rewrite their own is code.
 > + **Major releases**: signify significant changes that is no longer backwards compatible. Features may be removed or changed substantially.
+{: .prompt-tip }
 
 | CMD                          | Note                                                         |
 | :--------------------------- | ------------------------------------------------------------ |
@@ -331,7 +336,7 @@ Git uses a hashing function called **SHA-1** (though this is set to change event
 
 + Git **blobs** (binary large object) are the object type Git uses to store the contents of files in a given repository. Blobs don't even include the filenames of each file or any other data. They just store the contents of a file!
 
-![Blobs](git-objects-blobs.png)
+![Blobs](git-objects-blobs.png){: width="350" height="350"}
 
 | CMD                                          | Note                                                         |
 | :------------------------------------------- | ------------------------------------------------------------ |
