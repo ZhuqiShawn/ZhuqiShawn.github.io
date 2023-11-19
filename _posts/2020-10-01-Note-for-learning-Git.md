@@ -330,7 +330,8 @@ Git uses a hashing function called **SHA-1** (though this is set to change event
 **Four types of Git objects:**
 
 + Git **blobs** (binary large object) are the object type Git uses to store the contents of files in a given repository. Blobs don't even include the filenames of each file or any other data. They just store the contents of a file!
-![Blobs](git-object-blobs.png)
+
+![Blobs](git-objects-blobs.png)
 
 | CMD                                          | Note                                                         |
 | :------------------------------------------- | ------------------------------------------------------------ |
